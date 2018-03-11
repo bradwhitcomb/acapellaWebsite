@@ -1,202 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Acapella-Design</title>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:Regular 400 | Semi-Bold 600 | Regular 400 Italic" rel="stylesheet">
+	<title>Acapella-Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="app.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	
-	<script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script src="app.js"></script>
+
+
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#myPage">Acapella-Design</a>
+      <a class="navbar-brand" href="#">Acapella-Design</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#brands">BRANDS</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<div class="container opening-page">
-<div class="jumbotron text-center">
-  <h1 id="title">Acapella-Design</h1> 
-  <p id="tagline">"professional, reliable, trusted"</p> 
-
-</div>
-</div>
-<br class="line">
-<div id="about" class="container-fluid">
-  <div class="row">
-    
-    <div class="col-sm-12">
-     
-      <br>
-      <h4 id="intro">Acapella-Design works closely with your business or nonprofit to design, produce and deliver high quality promotional products.  Marty Whitcomb started the business in 2006 and has since grown the company by focusing on service, impactful designs, on-time delivery and products built around her clients.  Starting with cross-country and road races Acapella Design today works with corporate clients, non-profits, schools, sports team, mission teams and more.</h4>
-      <br>
-      
-
+  <!-- About Section -->
+	<div class="jumbotron text-center">
+		<p id="title">Acapella-Design<p> 
+		<p id="tagline">"professional, reliable, trusted"</p> 
     </div>
-    
-    
+    <div id="about" class="container-fluid">
+ 		<p id="overview">Marty Whitcomb launched Acapella-Design in 2006 organizing road races and high school cross-country events. Today, Acapella-Design works with corporate clients, non-profits, schools, sports teams, mission teams and more to design, produce and deliver high quality products.  Marty credits the success of her company to keeping the client at the center of her business, creating impactful designs, meeting tight dealines and sweating the details.  </p>
+ 	
+ 		
+ 		<button class="btn btn-default btn-lg">Get in Touch</button>
+	</div>
+  <hr>
+    <div id="services" class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4 class="subline">our offerings</h4>
+        <br>
+        <div class="row slideanim">
+
+          <div class="col-sm-4"><i class="fas fa-adjust coolFont"></i>
+            <h4>DESIGN</h4>
+            <p>Our graphic artists bring your ideas to life.  Having trouble translating that idea into a graphic? We can help!  It's what we do everyday.</p>
+          </div>
+          <div class="col-sm-4"><i class="fas fa-paint-brush coolFont"></i>
+            <h4>DECORATING</h4>
+            <p>Our screen print and embroidery teams create the very best applications for your product.  We pride ourselves on delivering accurate orders, on time and within specs.  We sweat the details.</p>
+          </div>
+
+          
+          <div class="col-sm-4"><i class="fab fa-simplybuilt coolFont"></i>
+            <h4>PRODUCTS</h4>
+            <p>Tee's, sweats, fleeces, polo's, hoodies, caps ....gifts, bags, tech, office, writing.... we can support your cause, your team, your passion, your business, your school, your mission.</p>
+          </div>
+         </div> 
+
+         <div class="row slideanim">
+          <div class="col-sm-4"><i class="fas fa-barcode coolFont"></i>
+            <h4>ON-LINE WEB STORES</h4>
+            <p>We can create and manage an on-line retail site for you.  Talk to us.</p>
+          </div>
+          <div class="col-sm-4"><i class="fas fa-money-bill-alt coolFont"></i>
+            <h4>ROAD RACES and FUND RAISING</h4>
+            <p>We know running.  We know charity road races.  We know fund raising.</p>
+          </div>
+          <div class="col-sm-4"> <i class="fas fa-heartbeat coolFont"></i>
+      
+              <h4 style="color:#303030;">GLOBAL HEALTH</h4>
+              <p>We have a passion for global health.  If you're working to improve the lives of children and families around the world, we'd like to help.</p>
+           </div>
+         </div> 
+        
+        </div>
+    </div>
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+         <h2>PORTFOLIO</h2>
+         <h4 class="subline">our creations</h4>
+         <div class="row text-center slideanim">
+           <div class="col-sm-3">
+            <div class="thumbnail">
+               <img src="images/12039253_10153710709874903_8442778085688716343_n.jpg" alt="Claws for a Cause" width="100" height="100">
+            </div>
+             <div class="thumbnail">
+                <img src="images/Acapella - 294010 Howard School Celebrating 65 Years - back art copy.jpg" alt="Howard School" width="400" height="300">
+             </div>
+             <div class="thumbnail">
+                <img src="images/turkey copy.jpg" alt="Turkey Trot" width="400" height="300">
+             </div>
+
+            </div>
+           <div class="col-sm-3">
+             <div class="thumbnail">
+               <img src="images/tartan.jpg" alt="Tartan Trot">
+             </div>
+             <div class="thumbnail">
+               <img src="images/Acapella - GLOW Africa wordle copy.jpg" alt="Africa wordle">
+             </div>
+             <div class="thumbnail">
+               <img src="images/Acapella - 954924 Lambert High School, Pollo polo, sugar   skull copy 2.jpg" alt="pollo polo sugar skull">
+             </div>
+           </div>
+           <div class="col-sm-3">
+             <div class="thumbnail">
+               <img src="images/accapella vinings race-112k.jpg" alt="Vinings Road Race" width="400" height="300">
+             </div>
+             <div class="thumbnail">
+               <img src="images/Acapella - Jelly Bean 5K Challenge jelly bean runner (export).jpg
+               " alt="Jelly Bean 5K" width="400" height="300">
+             </div>
+             <div class="thumbnail">
+               <img src="images/Acapella - 248307 Ware Family Reunion Atlanta 2017 peach skyline (vector export).jpg
+               " alt="Ware Family Reunion" width="400" height="300">
+             </div>
+           </div>
+           <div class="col-sm-3">
+             <div class="thumbnail">
+               <img src="images/Acapella - eagle eyes vector copy.jpg" alt="Eagle Eyes" width="400" height="300">
+             </div>
+             <div class="thumbnail">
+               <img src="images/Acapella - HWST export copy.jpg" alt="Hanover West Swim Team" width="400" height="300">
+             </div>
+           </div>
+        </div>
+      </div> 
+<div id="brands" class="container-fluid">
+  <div class="text-center">
+    <h2>BRANDS</h2>
+    <h4></h4>
   </div>
-
-</div>
-
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4 class="subTag">What we offer</h4>
-  <br>
   <div class="row slideanim">
-    <div class="col-sm-4"><i class="fas fa-paint-brush coolFont"></i>
-      
-      <h4>SCREEN PRINTING</h4>
-      <p>Our printers create the very best print applications, color matching and quality print job that meet your needs and fit your budget</p>
-    </div>
-    <div class="col-sm-4"><i class="fas fa-adjust coolFont"></i>
-      
-      <h4>DESIGN</h4>
-      <p>Our graphic artists will help bring your ideas to life</p>
-    </div>
-    <div class="col-sm-4"><i class="fab fa-simplybuilt coolFont"></i>
-      
-      <h4>EMBROIDERY</h4>
-      <p>Our seamstress use sphophisticated computerized machines that create high stich count, high quality work</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4"><i class="far fa-building coolFont"></i>
-      
-      <h4>CORPORATE EVENTS</h4>
-      <p>Our planning team helps you create memorable events that meet your corporate objectives and motivate employees</p>
-    </div>
-    <div class="col-sm-4"><i class="far fa-money-bill-alt coolFont"></i>
-      
-      <h4>ROAD RACES AND FUND RAISING</h4>
-      <p>We work with you to brand your identity, create buzz and meet your goals</p>
-    </div>
-    <div class="col-sm-4"><i class="fas fa-heart coolFont"></i>
-       
-      <h4 style="color:#303030;">APPAREL</h4>
-      <p>We rep a number of widely know brands and styles and outfit you from Tee's to Sweats to Fleeces and more</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4"><i class="fas fa-gift coolFont"></i>
-     
-      <h4>GIFTS AND PROMOTIONAL</h4>
-      <p>We can provide you with bags, corporate gifts, office products, electronics and </p>
-    </div>
-    <div class="col-sm-4"><i class="fas fa-barcode coolFont"></i>
-      
-      <h4>ONLINE RETAIL</h4>
-      <p>We can help you create an online store to distribute </p>
-    </div>
-    <div class="col-sm-4"> <i class="fas fa-heartbeat coolFont"></i>
-      
-      <h4 style="color:#303030;">GLOBAL HEALTH</h4>
-      <p>We have a passion for global health.  If you're working to improve the lives of children and families around the world, we'd like to help</p>
-    </div>
-  </div>
-</div>
-<div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2>
-  <h4 class="subTag">What we have created</h4>
-  <div class="container">
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="images/12039253_10153710709874903_8442778085688716343_n.jpg" alt="Claws for a Cause" width="400" height="300">
-        
-      </div>
-      <div class="thumbnail">
-        <img src="images/Acapella - 293966 VININGS CUMBERLAND ROTARY CLUB with Rotary International train logo (vector export).png" alt="Claws for a Cause" width="400" height="300">
-        
-      </div>
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/04.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/04.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/07.jpg"><img src="https://www.alphabroder.com//images/alp/millSmall/07.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <img id="nike" src="images/GNIKE12.jpg">
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/15.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/mr.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/18.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/ua.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/20.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/38.jpg"></a>
+    </div> 
 
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="images/accapella vinings race-112k.jpg" alt="Vinings Road Race" width="400" height="300">
-        
-      </div>
-      <div class="thumbnail">
-        <img src="images/securedownload.png" alt="Vinings Road Race" width="400" height="300">
-        
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="images/greenALS_logo.jpg" alt="Stop ALS" width="400" height="300">
-      </div>  
-      </div>
-      
-  </div><br>
+  </div>
+  <div class="row slideanim">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/21.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/nb.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/30.jpg"><img src="https://www.alphabroder.com//images/alp/millSmall/30.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/38.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/hd.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/39.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/39.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/40.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/40.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/43.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/nl.jpg"></a>
+    </div> 
+
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/46.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/46.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/wd.jpg"><img src="https://www.alphabroder.com//images/alp/millSmall/wd.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/50.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/50.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/58.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/58.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/62.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/62.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/yp.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/yp.jpg"></a>
+    </div> 
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/85.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/85.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/pt.jpg"><img src="https://www.alphabroder.com//images/alp/millSmall/pt.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/88.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/88.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/a4.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/a4.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/ho.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/ho.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/af.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/af.jpg"></a>
+    </div> 
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/al.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/al.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/"><img src="https://www.alphabroder.com//images/alp/millSmall/20.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/be.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/be.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/bg.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/bg.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/bp.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/bp.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/bs.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/bs.jpg"></a>
+    </div> 
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/bu.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/bu.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/c3.jpg"><img src="https://www.alphabroder.com//images/alp/millSmall/c3.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/ct.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/ct.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/cv.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/cv.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/cw.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/cw.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/"><img src="https://www.alphabroder.com/images/alp/millSmall/10.jpg"></a>
+    </div> 
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/"><img src="https://www.alphabroder.com/images/alp/millSmall/t3.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/dc.jpg"><img src="https://www.alphabroder.com//images/alp/millSmall/dc.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/"><img src="https://www.alphabroder.com/images/alp/millSmall/15.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/ho.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/ho.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/pt.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/pt.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/dr.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/dr.jpg"></a>
+    </div> 
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/drd.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/drd.jpg"></a>
+    </div> 
+     <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com//images/alp/millSmall/ec.jpg"><img src="https://www.alphabroder.com//images/alp/millSmall/ec.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/18.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/18.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/fh.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/fh.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/fl.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/fl.jpg"></a>
+    </div> 
+    <div class="col-md-2 col-sm-6 col-xs-12">
+     <a class="pics" href="https://www.alphabroder.com/images/alp/millSmall/ft.jpg"><img src="https://www.alphabroder.com/images/alp/millSmall/ft.jpg"></a>
+    </div> 
+  </div>
   
-  </div>
-</div>
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><i class="fas fa-home coolFont"></i> Atlanta, Georgia</p>
-      <p><i class="fas fa-mobile coolFont"></i> 404.678.6421</p>
-      <p><i class="far fa-envelope coolFont"></i> marty@acapella-design.com</p>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  <hr>
+
 </div>
 
 
+    <div id="contact" class="container-fluid bg-grey">
+       <h2 class="text-center">CONTACT</h2>
+      <div class="row slideanim">
+        <div class="col-sm-5">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p><i class="fas fa-home coolFont"></i> Atlanta, Georgia</p>
+          <p><i class="fas fa-mobile coolFont"></i> 678.662.6421</p>
+          <p><i class="far fa-envelope coolFont"></i> marty@acapella-design.com</p> 
+        </div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name"     type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="    Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder    ="Comment" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Send</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div> 
+    <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p> 
+  <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@impatrickt?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Patrick Tomasso"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Patrick Tomasso</span></a>
+</footer>
+    
 
-
-
-
-
-
-
-
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-</body>
-
 </html>
