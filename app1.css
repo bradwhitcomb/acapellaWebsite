@@ -1,10 +1,20 @@
 body {
-      font: 400 15px Lato, sans-serif;
+      font: 600 18px Lato, sans-serif;
       line-height: 1.8;
       /*color: #818181;*/
-      background-color: #dddde2;
+      background-color: #999999;
       color:black;
       font-weight: bold;
+  }
+  h2 {
+	font-family: Montserrat, sans-serif;
+	font-size: 2em;
+	color:#f4511e;
+
+  }
+
+  h4 {
+
   }
 
   .jumbotron {
@@ -17,6 +27,7 @@ body {
       background-image: url("images/patrick-tomasso-208114-unsplash.jpg");
       background-size: cover;
       color: #f4511e;
+
       height: 35em;
       border-bottom: white solid 10px;
   }
@@ -73,7 +84,11 @@ body {
   	color:#fff;
   	line-height: 1.5;
   	font-size: 1.5em;
+    font-family: Montserrat, sans-serif;
+      font-weight:bold;
+
 }
+
 
 .navbar {
       margin-bottom: 0;
@@ -98,6 +113,68 @@ body {
       color: #fff !important;
   }
 
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 150%;
+      height: 150%;
+      margin-bottom: 10px;
+    }
+   #portfolio {
+    background-image: url("images/patrick-tomasso-208114-unsplash.jpg");
+    background-size: cover;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+
+   }
+
+   #title {
+    font-size: 5em;
+    font-weight: bold;
+    padding-top: 3.5%;
+   }
+
+   #tagline{
+   	font-size: 2.5em;
+    font-weight: bold;
+   }
+   #nike {
+    width: 38%;
+
+    
+   }
+
+   .subline {
+   	font-family: Montserrat, sans-serif;
+   	font-size: 1.5em;
+   	color:#f4511e;
+		
+   }
+   .pics {
+        
+        padding:0 0 15px 0;
+        border: none;
+
+   }
+
+   .pics img {
+      width: 75%;
+      height: 75%;
+      margin-bottom: 70px;
+   }
+   .fa-mobile{
+    margin-right: 4%;
+    margin-left: 2%;
+   }
+   .fa-envelope{
+    margin-right: 1%;
+   }
+
+
+  
 
 
 
