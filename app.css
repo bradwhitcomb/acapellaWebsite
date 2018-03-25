@@ -20,7 +20,7 @@ body {
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
       font-weight:bold;
-      background-image: url("images/patrick-tomasso-208114-unsplashLQ1.jpg");
+      background-image: url("images/patrick-tomasso-208114-unsplashLQ2 copy 2.jpg");
       background-size: 100%;
       color: #f4511e;
 
@@ -120,7 +120,7 @@ body {
       margin-bottom: 10px;
     }
    #portfolio {
-    background-image: url("images/patrick-tomasso-208114-unsplashLQ1.jpg");
+    background-image: url("images/patrick-tomasso-208114-unsplashLQ2 copy 2.jpg");
     background-size: cover;
     border-top: solid white 2px;
     border-bottom: solid white 2px;
@@ -139,6 +139,7 @@ body {
    }
    #nike {
     width: 38%;
+    margin-bottom:100px;
 
     
    }
